@@ -1,5 +1,5 @@
 {
-  "name": "taiyaki",
+  "name": "react-kanban",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
@@ -8,7 +8,7 @@
     "build": "webpack --display-error-details -w",
     "develop": "webpack-dev-server --host 0.0.0.0 --hot --config webpack.config.js",
     "production": "webpack --mode=production",
-    "package": "electron-packager . taiyaki --platform=mac --arch=arm64 --electron-version=11.2.3"
+    "package": "electron-packager . react-kanban --platform=mac --arch=arm64 --electron-version=11.2.3"
   },
   "author": "forest1040",
   "license": "MIT",
@@ -38,13 +38,11 @@
     "@types/react-beautiful-dnd": "^13.0.0",
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.8",
-    "ace-builds": "^1.4.12",
     "css-loader": "^5.1.2",
     "dexie": "^3.0.3",
     "electron-store": "^7.0.2",
     "file-loader": "^6.2.0",
     "moment": "^2.29.1",
-    "react-ace": "^9.3.0",
     "react-beautiful-dnd": "^13.0.0",
     "react-monaco-editor": "^0.42.0",
     "react-router-dom": "^5.2.0",
